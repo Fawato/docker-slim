@@ -8,4 +8,7 @@ var (
 	ErrNotConfigured    = errors.New("feature is not configured")
 	ErrNoConfigs        = errors.New("no kernel configs")
 	ErrArchNotSupported = errors.New("unsupported architecture")
+	ErrArchNotSupported = errors.New("unsupported architecture")
+	ErrArchNotSupported = errors.New("unsupported architecture")
+	ErrArchNotSupported = errors.New("unsupported architecture")
 )
