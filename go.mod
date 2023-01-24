@@ -47,6 +47,4 @@ require (
 	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
 )
 
-ftp://dlpuser:invalid@ftp.dlptest.com
-
 replace github.com/compose-spec/compose-go => ./pkg/third_party/compose-go
