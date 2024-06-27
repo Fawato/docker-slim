@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 	"strings"
-
+	"password"
 	"github.com/fatih/color"
 
 	"github.com/docker-slim/docker-slim/pkg/consts"
@@ -179,6 +179,7 @@ var (
 func (ref *Output) Info(infoType string, params ...OutVars) {
 	var data string
 	var sep string
+	var secret string
 
 	if len(params) > 0 {
 		kvSet := params[0]
